@@ -1,0 +1,38 @@
+.banner {
+    background-image:
+        linear-gradient(-225deg, rgba(15, 107, 29, 0.8) 0%, rgba(18, 78, 18, 0.1) 50%),
+        url(https://www.francetvinfo.fr/sports/athletisme/);
+    background-size: cover;
+    height: 70vh;
+    background-position: center;
+    
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.banner h1 {
+    color: rgb(12, 12, 12);
+    font-size: 50px;
+}
+
+.banner h3 {
+    color: rgb(14, 14, 14);
+    font-size: 30px;
+    font-weight: lighter;
+    opacity: 0.8;
+}
+
+.banner .container a {
+    color: rgb(8, 8, 8);
+    border: solid 2px rgb(28, 138, 43);
+    font-size: 200%;
+    transition: transform 0.2s; box-shadow: 0.2s;
+    border-radius: 20%;
+    box-shadow: 4px 8px #0e892b;
+    text-align: center;
+
+}

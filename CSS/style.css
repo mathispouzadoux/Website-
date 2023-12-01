@@ -1,0 +1,176 @@
+@import url("components/avatar.css");
+/* Importing Google fonts */
+@import url("https://fonts.googleapis.com/css?family=Lora:400,700|Roboto:300,400,700");
+
+/* Importing component files */
+@import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("Components/card.css");
+
+/* General style rules for fonts and colors */
+body {
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  margin: 0px;
+}
+h1, h2, h3, a {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+a {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  margin-bottom: 100px;
+}
+a {
+  text-decoration: none;
+}
+.section {
+  display: flex;
+  justify-content: space-around;
+  background-color: #1d6311;
+  padding: 20px;
+  transition: opacity 0.8s; 
+}
+.categorie {
+  flex: 1;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid hsl(0, 0%, 80%);
+  background-color: #ffffff;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 3px 3px 5px #046e04;
+}
+
+.athlétisme {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.card {
+  transition: background-color 0.7s;
+  flex: 1;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 3px 3px 5px #888888;
+
+}
+.card:hover {
+  background-color: #f0f0f0;
+}
+
+.categorie-list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+}
+
+.categorie-list li {
+  flex: 1;
+  margin: 10px;
+}
+
+.card:hover {
+  background-color: #f0f0f0;
+  transform: scale(1.05);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; 
+  margin: 0 auto;
+}
+
+.categorie-list {
+  list-style: none;
+  padding: 0;
+}
+
+.categorie-list li {
+  flex: 1;
+  margin: 10px;
+}
+
+.card {
+  transition: background-color 0.3s, transform 0.3s;
+  margin: 0;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 3px 3px 5px #288027;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+.card:hover {
+  background-color: #f0f0f0;
+  transform: scale(1.05);
+}
+.flex-container {
+  display: flex;
+  justify-content: space-between; /
+}
+
+.card {
+
+  flex: 1;
+  margin: 10px;
+}
+.signup-section {
+  background-color: #4CAF50; /* Couleur de fond */
+  color: white; /* Couleur du texte */
+  padding: 20px;
+  text-align: center;
+}
+
+.signup-container {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px;
+  background-color: #45a049; /* Couleur de fond du bouton */
+  color: white; /* Couleur du texte du bouton */
+  border: none;
+  cursor: pointer;
+}
